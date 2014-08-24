@@ -22,6 +22,10 @@
 		6DA9C741199B9FD900EB2608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA9C720199B9FD900EB2608 /* UIKit.framework */; };
 		6DA9C749199B9FD900EB2608 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9C747199B9FD900EB2608 /* InfoPlist.strings */; };
 		6DA9C74B199B9FD900EB2608 /* BookAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C74A199B9FD900EB2608 /* BookAppTests.m */; };
+		6DA9C756199BA87C00EB2608 /* PhenomenalBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C755199BA87C00EB2608 /* PhenomenalBook.m */; };
+		6DA9C757199BA87C00EB2608 /* PhenomenalBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C755199BA87C00EB2608 /* PhenomenalBook.m */; };
+		6DA9C75A199C4F4A00EB2608 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C759199C4F4A00EB2608 /* BookInfoViewController.m */; };
+		6DA9C75B199C4F4A00EB2608 /* BookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9C759199C4F4A00EB2608 /* BookInfoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		6DA9C746199B9FD900EB2608 /* BookAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookAppTests-Info.plist"; sourceTree = "<group>"; };
 		6DA9C748199B9FD900EB2608 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6DA9C74A199B9FD900EB2608 /* BookAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookAppTests.m; sourceTree = "<group>"; };
+		6DA9C754199BA87C00EB2608 /* PhenomenalBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhenomenalBook.h; sourceTree = "<group>"; };
+		6DA9C755199BA87C00EB2608 /* PhenomenalBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhenomenalBook.m; sourceTree = "<group>"; };
+		6DA9C758199C4F4A00EB2608 /* BookInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfoViewController.h; sourceTree = "<group>"; };
+		6DA9C759199C4F4A00EB2608 /* BookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +125,13 @@
 				6DA9C72B199B9FD900EB2608 /* AppDelegate.h */,
 				6DA9C72C199B9FD900EB2608 /* AppDelegate.m */,
 				6DA9C72E199B9FD900EB2608 /* Main_iPhone.storyboard */,
+				6DA9C758199C4F4A00EB2608 /* BookInfoViewController.h */,
+				6DA9C759199C4F4A00EB2608 /* BookInfoViewController.m */,
 				6DA9C731199B9FD900EB2608 /* Main_iPad.storyboard */,
 				6DA9C734199B9FD900EB2608 /* ViewController.h */,
 				6DA9C735199B9FD900EB2608 /* ViewController.m */,
+				6DA9C754199BA87C00EB2608 /* PhenomenalBook.h */,
+				6DA9C755199BA87C00EB2608 /* PhenomenalBook.m */,
 				6DA9C737199B9FD900EB2608 /* Images.xcassets */,
 				6DA9C723199B9FD900EB2608 /* Supporting Files */,
 			);
@@ -254,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA9C736199B9FD900EB2608 /* ViewController.m in Sources */,
+				6DA9C75A199C4F4A00EB2608 /* BookInfoViewController.m in Sources */,
+				6DA9C756199BA87C00EB2608 /* PhenomenalBook.m in Sources */,
 				6DA9C72D199B9FD900EB2608 /* AppDelegate.m in Sources */,
 				6DA9C729199B9FD900EB2608 /* main.m in Sources */,
 			);
@@ -264,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA9C74B199B9FD900EB2608 /* BookAppTests.m in Sources */,
+				6DA9C75B199C4F4A00EB2608 /* BookInfoViewController.m in Sources */,
+				6DA9C757199BA87C00EB2608 /* PhenomenalBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +486,7 @@
 				6DA9C750199B9FD900EB2608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DA9C751199B9FD900EB2608 /* Build configuration list for PBXNativeTarget "BookAppTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +495,7 @@
 				6DA9C753199B9FD900EB2608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
